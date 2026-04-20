@@ -170,7 +170,7 @@ window.Quarto = {
 <li><strong>Figure 3</strong>: Post-surgical outcomes by patient severity (stratification)</li>
 </ul>
 <p>Use the text descriptions, statistical results, and your understanding of visualization best practices to recreate these figures. Your figures should be professional, colorblind-friendly, and tell the story clearly.</p>
-<p><strong>Implementation requirement:</strong> All three figures must be generated with <strong>beautifully formatted, object-oriented matplotlib code</strong> — i.e., create explicit <code>Figure</code> and <code>Axes</code> objects via <code>fig, ax = plt.subplots(...)</code> and call methods on <code>ax</code> (e.g., <code>ax.scatter</code>, <code>ax.axhline</code>, <code>ax.set_xlabel</code>, <code>ax.legend</code>). Do <strong>not</strong> use the stateful <code>plt.scatter</code> / <code>plt.title</code> / <code>plt.xlabel</code> pyplot API. Code should be clean, well-organized, and readable (logical grouping, consistent spacing, and meaningful variable names — for example, use <code>dreamy_color = '#4E79A7'</code> once at the top and reuse it, rather than pasting the hex code into every plotting call).</p>
+<p><strong>Implementation requirement:</strong> All three figures must be generated with <strong>beautifully formatted, object-oriented matplotlib code</strong> — i.e., create explicit <code>Figure</code> and <code>Axes</code> objects via <code>fig, ax = plt.subplots(...)</code> and call methods on <code>ax</code> (e.g., <code>ax.scatter</code>, <code>ax.axhline</code>, <code>ax.set_xlabel</code>, <code>ax.legend</code>). Do <strong>not</strong> use the stateful <code>plt.scatter</code> / <code>plt.title</code> / <code>plt.xlabel</code> pyplot API. Code should be clean, well-organized, and readable (logical grouping, consistent spacing, and meaningful variable names, for example, use <code>dreamy_color = '#4E79A7'</code> once at the top and reuse it, rather than pasting the hex code into every plotting call).</p>
 <p><strong>Grading:</strong> Completing the three figures correctly will earn you 85% of the grade. To earn the final 15% (for a total of 100%), you must make it feel like a complete, professional report rather than a challenge assignment</p>
 </div>
 </div>
@@ -222,7 +222,7 @@ A Tale of Two Surgeons
 <div class="cell-output cell-output-stdout">
 <pre><code>Number of patients: 100</code></pre>
 </div>
-<div id="load-data-python" class="cell-output cell-output-display" data-execution_count="9">
+<div id="load-data-python" class="cell-output cell-output-display" data-execution_count="16">
 <div>
 
 
@@ -406,7 +406,7 @@ What is a counterfactual?
 <div class="cell-output cell-output-stdout">
 <pre><code>Number of randomized patients: 100</code></pre>
 </div>
-<div id="load-data-randomized-python" class="cell-output cell-output-display" data-execution_count="12">
+<div id="load-data-randomized-python" class="cell-output cell-output-display" data-execution_count="19">
 <div>
 
 
