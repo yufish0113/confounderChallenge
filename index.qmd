@@ -119,7 +119,7 @@ dreamy_mean = dreamy_pts['post_surgical_score'].mean()
 duck_mean = duck_pts['post_surgical_score'].mean()
 
 # Figure layout
-fig, ax = plt.subplots(figsize=(9, 5.5), layout='constrained')
+fig, ax = plt.subplots(figsize=(8, 5.5), layout='constrained')
 
 # Scatter: circles (Doc Dreamy) vs triangles (Doc Duck)
 point_edge = 'white'
@@ -330,7 +330,7 @@ dreamy_mean = dreamy_pts['post_surgical_score'].mean()
 duck_mean = duck_pts['post_surgical_score'].mean()
 
 # Figure layout (match Figure 1)
-fig, ax = plt.subplots(figsize=(9, 5.5), layout='constrained')
+fig, ax = plt.subplots(figsize=(8, 5.5), layout='constrained')
 
 # Scatter: circles (Doc Dreamy) vs triangles (Doc Duck)
 point_edge = 'white'
@@ -447,7 +447,7 @@ dreamy_mean = dreamy_pts['post_surgical_score'].mean()
 duck_mean = duck_pts['post_surgical_score'].mean()
 
 # Figure layout (match prior figures)
-fig, ax = plt.subplots(figsize=(9, 5.5), layout='constrained')
+fig, ax = plt.subplots(figsize=(8, 5.5), layout='constrained')
 
 # Shaded vertical band on x (drawn under points and mean lines)
 ax.axvspan(
